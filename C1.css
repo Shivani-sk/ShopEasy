@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+.bg{
+    height:800px;
+    background: url(shop/Aboutus/abt7.jpg);
+    background-attachment: fixed;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:initial;
+}

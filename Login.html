@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="shop/cart.jpg" rel="icon">
+    <link href="L1.css" rel="stylesheet">
+</head>
+<body>
+    <img src="shop/logo32-1.png" height="60" width="250">
+    <br> <br>
+    <form action="Home.html" onsubmit="return email()" onsubmit="return pass()">
+    <div>
+    <h3>LOGIN</h3>
+    <label>Email Address<input type="text" id="em"required> </label> <br> <br>
+    Password <input type="password" id="pw"required> <br> <br>
+    <br>
+    <button><b> Log-in</b></button>
+    <h5>By continuing, you agree to ShopEasy's Conditions of Use and Privacy Notice. </h5>
+    </div>
+</form>
+    <br>
+    <div>
+    New to ShopEasy? 
+    </br> <br>
+    <form action="SignUp.html">
+    <button> <b> SignUp</b></button> 
+    </form>
+    </div>
+</body>
+<script>
+function pass()
+{
+    var passw=document.getElementById("pw");
+    if(passw.value.length > 6)
+    {
+        alert("Password should not be more than length 6");
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}
+function email()
+{
+    var mail=document.getElementById("em").value;
+    var result=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if(!mail.match(result))
+    {
+        alert("Email address is not valid");
+        return false;
+    }
+    else
+    {
+        alert("Email Accepted");
+        return true;
+    }
+}
+</script>
+</html>

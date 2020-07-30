@@ -1,0 +1,18 @@
+.font
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+button.space2
+{
+  margin-left: 900px;
+  padding-bottom:10px;
+  padding-left:30px;
+  padding-right:30px;
+}
+.gallery2
+      {
+        margin-left: 3px;
+        border: 2px solid #ccc;
+      }
+

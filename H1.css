@@ -1,0 +1,195 @@
+body{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Constantia;
+    background-color:#f3f3f3;
+    }
+   .bg{
+    background-color:white;
+    } 
+    .bg1
+    {
+      background-color:pink;
+      height: 310px;
+    }
+    input{
+      border-color:#e12152;
+      border-width: 2px;
+      border-radius:5px;
+      padding-top:15px;
+      padding-bottom:5px;
+      padding-right:450px;
+      font-family:Constantia;
+      font-size: 16px;
+    }
+    button{
+    background-color: #e12152;
+    border-width: 0px;
+    border-radius:5px;
+    padding-top:15px;
+    padding-bottom:5px;
+    padding-right:20px;
+    font-family:Constantia;
+      font-size: 15px;
+    }
+    img{
+      margin-top: 10px;
+    }
+    .img:hover{
+        opacity:0.9;
+        height:250px;
+        width:430px;
+        }
+      .img1:hover{
+          opacity:0.9;
+          height:125px;
+          width:136px;
+          }
+
+    .mySlides {display:none;}
+
+    .w3-content,.w3-auto{
+        margin-right:auto
+    }   
+    .w3-content{max-width:980px}
+    .w3-auto{max-width:1140px}
+
+    .w3-section,.w3-code{
+        margin-top:16px!important;
+        margin-bottom:16px!important
+    }
+
+
+    /** dropdown start**/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#e12152;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover, .dropdown:hover .dropbtn {
+        background-color: black;
+      }
+      
+      li.dropdown {
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+        text-decoration: none;
+      color:#e12152;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      /** dropdown end **/
+
+      /** top selection **/
+    h4 {
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .checked {
+        color: orange;
+      }
+      .fa{
+        display:inline-block;
+        font:normal normal normal 14px/1 FontAwesome;
+        font-size:inherit;
+        text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+      }
+      .fa-star:before{content:"\f005"}
+      .fa-star-o:before{content:"\f006"}
+      .fa-star-half:before{content:"\f089"}
+      .fa-star-half-empty:before,
+      .fa-star-half-full:before,
+      .fa-star-half-o:before{content:"\f123"}
+
+      .responsive {
+        padding: 10px 31px;
+        float:left;
+        font-weight:bold;
+      }
+      .gallery
+      {
+        border: 1px solid #ccc;
+      }
+      button.space
+      {
+        margin-left: 1000px;
+        padding-bottom:10px;
+        padding-left:30px;
+        padding-right:30px;
+      }
+     
+/*footer*/
+.ftr{
+  background-color:black;
+  
+}
+.footer{
+  margin-left:65px;width:90%!important;padding-top:40px;
+}
+.footer-icon{
+  margin-left: 480px;
+  font-size: 40px;
+}
+.footer-icon a{
+  color:#e12152;
+  text-decoration: none;
+}
+.footer-icon a:hover{
+  color:lightblue;
+}
+.copyrights p{
+  margin-left: 550px;
+  color: #CED0CE;
+}
+a{
+  text-decoration: none;
+  color:#e12152;
+}
+.row{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap}
+.footer1{-webkit-flex:1;-ms-flex:1;flex:1;}
+.footer2{color:#878787;font-size:15px;font-weight:400;margin-bottom:9px}
+
+.ftr7,.ftr9{font-size:12px;white-space:nowrap}
+.ftr7{border-left:1px solid #454d5e;padding:0 25px}
+.ftr8 p{margin-bottom:0; color:white;font-family: 'Times New Roman', Times, serif;}
+.ftr9{margin-bottom:10px;padding-left:14px}
+
+/*end of footer*/
+  
